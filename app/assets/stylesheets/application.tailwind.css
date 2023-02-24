@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply pt-3 pb-3 pl-11 pr-11 text-white cursor-pointer font-medium rounded-lg bg-[#4661E6];
+    }
+    .link {
+        @apply text-[#4661E6] underline font-medium cursor-pointer
+    }
+}
