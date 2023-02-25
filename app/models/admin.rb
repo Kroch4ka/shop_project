@@ -1,3 +1,4 @@
-class Admin < ApplicationRecord
-  devise :database_authenticatable, :registerable, :validatable
+# frozen_string_literal: true
+
+class Admin < User
 end
